@@ -1,0 +1,6 @@
+<div class="card" ng-controller="ProfileCtrl" ng-if="profile">
+    <img src="{{ profile.avatar }}" alt="Avatar" style="width:50%; height: 50%">
+    <h3>{{ profile.name }}</h3>
+    <strong>{{ profile.company.job_title }}</strong>
+    <p>{{ profile.address.city}}, {{ profile.address.state}}</p>
+</div>                                                  
